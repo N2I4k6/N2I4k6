@@ -1,0 +1,505 @@
+
+*{
+	padding:0;
+    margin:0;
+	outline:none
+}
+
+body,html{
+	width:100%;
+	height:100%
+}
+
+iframe{
+	max-width:100%
+}
+
+body{
+	background-color:#f6f6f6;
+	font-family:Montserrat,sans-serif;
+	
+	font-size:1rem;
+	color:#232323;
+	overflow-anchor:auto;
+	scroll-behavior:smooth;
+	font-size-adjust:100%;
+	-webkit-font-size-adjust:100%;
+	-ms-font-size-adjust:100%;
+	-webkit-text-size-adjust:none
+}
+
+p{
+	line-height:170%
+}
+
+a{
+	color:#f26651;
+	text-decoration:none;
+	transition:all .6s ease;-ms-transition:all .6s ease;
+	-o-transition:all .6s ease;
+	-moz-transition:all .6s ease;
+	-webkit-transition:all .6s ease
+}
+
+a:hover{
+	color:#211f1d;
+	text-decoration:none
+}
+
+img{
+max-width:100%;
+height:auto;
+width:auto\9 ;
+transition:all .7s ease-out;
+-moz-transition:all .7s ease-out;
+-o-transition:all .7s ease-out;
+-webkit-transition:all .7s ease-out
+
+}
+
+hr{
+	display:block;
+	height:1px;
+	border:0;
+	border-top:1px solid #ccc;
+	margin:1em 0;
+	padding:0
+}
+
+input,textarea{
+	-webkit-appearance:none
+}
+
+
+@media (min-width:2001px){
+	.container{
+		width:60%;
+		padding-left:20%;
+		padding-right:20%;
+		float:left
+	}
+}
+
+@media (max-width:2000px) and (min-width:1760px){
+	.container{
+		width:70%;
+		padding-left:15%;
+		padding-right:15%;
+		float:left
+    }
+
+}
+
+@media (max-width:1759px) and (min-width:1501px){
+	.container{
+		width:75%;
+		padding-left:12.5%;
+		padding-right:12.5%;
+		float:left
+    }
+}
+
+@media (max-width:1500px){
+	.container{
+		width:90%;
+		padding-left:5%;
+		padding-right:5%;
+		float:left
+	}
+}
+
+header{
+	background-color: black;
+	padding-top:12px;
+	padding-bottom:12px;
+	
+}
+
+header #everything-header{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	
+}
+
+
+
+#phone{
+	float: left;
+
+	
+}
+
+#phone #phoneOne{
+	color: white;
+	font-size: 1.3em;
+	margin-left: 20px;
+	
+}
+
+#phone #phoneOne:hover{
+	cursor: pointer;
+	color: silver;
+	
+}
+
+
+
+#phone #phoneTwo{
+	color: silver;
+	font-size: 0.9em;
+	margin-left: 30px;
+}
+
+#phone #phoneThree{
+	color: white;
+	font-size: 1.1em;
+	margin-left: 30px;
+}
+
+#phone #phoneThree:hover{
+	cursor: pointer;
+	color: silver;
+}
+
+
+
+
+#logo img{
+	float: left;
+	width: 150px;
+	
+}
+
+
+
+#about{
+	float: left;
+	
+}
+
+#about img{
+	width: 35px;
+	float: left;
+	margin-left: 15px;
+}
+
+#about img:hover{
+	cursor: pointer;
+	color: silver;
+}
+
+#about span{
+	margin-top: 10px;
+	float: left;
+	font-size: 0.9em;
+	color: white;
+	margin-left: 15px;
+	margin-right: 10px;
+	
+}
+
+#about span:hover{
+	cursor: pointer;
+	color: silver;
+}
+
+#navigation{
+	background-color: black;
+	padding-top:12px;
+	padding-bottom:12px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+
+.services{
+	color: white;
+	font-size: 1.2em;	
+}
+
+.services:hover{
+	cursor: pointer;
+	color: silver;
+}
+
+/*центральный блок*/
+
+#bigPhoto{ 
+	float:left;
+	padding-top:200px;
+	padding-bottom:200px;
+    background: url(img/bigPhoto.jpg);
+	
+	
+}
+
+@media (min-width:1451px){
+	#bigPhoto{
+		width:40%;
+		padding-left:30%;
+		padding-right:30%;
+    }
+}
+
+@media (max-width:1450px) {
+	#bigPhoto{
+		width:60%;
+		padding-left:20%;
+		padding-right:20%;
+    }
+
+}
+
+#buttonBigPhoto1{
+	margin-left: 30px;
+	font-size: 3.2em;
+	font-weight: bold;
+	color: white;
+	width: 100%;
+	
+    display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+
+#buttonBigPhoto2{
+	margin-left: 150px;
+	font-size: 3.2em;
+	font-weight: bold;
+	color: white;
+	width: 100%;
+	
+    display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+
+#buttonBigPhoto3{
+	margin-left: 190px;
+	margin-top: 30px;
+	color: black;
+	
+	
+    display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+
+#buttonBigPhoto3 div{
+	border-radius: 40px;
+	background-color: yellow;
+	font-size:2em;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#buttonBigPhoto3 div:hover{
+	cursor: pointer;
+	background-color:red;
+}
+
+
+
+#skidki{
+	
+	display:flex;
+	background-color:#ffb833;
+	align-items:center;
+	padding-left:40%;
+	padding-right:40%;
+	padding-top:15px;
+	padding-bottom:15px;
+	width:20%;
+	float:left;
+}
+
+#skidki span{
+	margin-left: 20px;
+	float:left;
+	font-size: 1.3em;
+}
+
+
+
+#skidki img{
+	width: 50px;
+	float:left;
+	
+}
+
+
+
+@media (min-width:1801px){
+	#production{
+		
+	float:left;
+	background-color:black;
+	padding-left:15%;
+	padding-right:15%;
+	width: 70%;
+    }
+}
+
+@media (max-width:1800px) and (min-width:1601px) {
+	#production{
+	float:left;
+	background-color:black;
+	padding-left:10%;
+	padding-right:10%;
+	width: 80%;
+    }
+
+}
+
+@media (max-width:1600px) and (min-width:1501px) {
+	#production{
+	float:left;
+	background-color:black;
+	padding-left:5%;
+	padding-right:5%;
+	width: 90%;
+    }
+
+}
+
+@media (max-width:1500px){
+	#production{
+	float:left;
+	background-color:black;
+	padding-left: 1.5%;
+	padding-right: 1.5%;
+	width: 97%;
+    }
+}
+
+
+#productionName{
+	float:left;
+	background-color: black;
+	padding-left:40%;
+	padding-right:40%;
+	width: 20%;
+	padding-top:50px;
+	padding-bottom:50px;
+	
+}
+
+#productionName img{
+	width: 50px;
+	float: left;
+}
+
+#productionName span{
+	margin-left: 20px;
+	float: left;
+	color: white;
+	font-size: 2.4em;
+}
+
+
+
+
+#buttonLeft img, #buttonRight img{
+	width: 40px;
+	background-color: silver;
+	border-radius: 100%;
+	
+}
+
+#buttonLeft img, #buttonRight img:hover{
+	background-color: white;
+	cursor: pointer;
+}
+
+#buttonRight{
+	margin-left: 40px;
+	float:left;
+	margin-top: 200px;
+}
+
+#buttonLeft{
+	float:left;
+	margin-top: 200px;
+}
+
+
+#productionOne{
+	border-radius: 10px;
+	width: 320px;
+	height: 450px;
+	background-color: red;
+	float: left;
+	margin-left: 40px;
+	background: url(img/vansOne.png);
+	
+}
+
+#productionOne:hover{
+	
+	cursor: pointer;
+}
+
+#productionTwo{
+	border-radius: 10px;
+	width: 320px;
+	height: 450px;
+	background-color: red;
+	float: left;
+	margin-left: 40px;
+	background: url(img/vansTwo.png);
+	
+}
+
+#productionTwo:hover{
+	
+	cursor: pointer;
+}
+
+#productionThree{
+	border-radius: 10px;
+	width: 320px;
+	height: 450px;
+	background-color: red;
+	float: left;
+	margin-left: 40px;
+	background: url(img/vansThree.png);
+	
+}
+
+#productionThree:hover{
+	
+	cursor: pointer;
+}
+ 
+ 
+#pretop{
+	
+	 padding-top:50px;
+	 padding-bottom:50px;
+	 
+ }
+ 
+ #pretop img{
+	margin-left: 30px;
+	 width: 60px;
+	 float:left;
+	 
+ }
+ 
+ #pretop span{
+	 margin-top: 20px;
+	 margin-left: 20px;
+	font-size: 1.2em;
+	  float:left;
+	 
+ }
+
+
+
+
+
+
+
