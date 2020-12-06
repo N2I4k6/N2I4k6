@@ -24,7 +24,7 @@ a{
 	margin: 180px auto;
 	width: 900px;
 	height: 600px;
-	background-color: #04198f;
+	background-color: #408f04;
 	
 }
 
@@ -222,10 +222,7 @@ a{
 	color: white;
 }
 
-.menuButton1{
-	
-	
-}
+
 /* правый блок */
 .rightBlock{
 	float: left;
